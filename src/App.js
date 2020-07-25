@@ -6,10 +6,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-      <BrowserRouter>
-        <Nav/>
-        <Myroute/>
-      </BrowserRouter>
+    <BrowserRouter basename="/test-react-app-1">
+      <Nav />
+      <Myroute />
+    </BrowserRouter>
   );
 }
 
