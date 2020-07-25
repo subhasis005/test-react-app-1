@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/test-react-app-1">
+    <BrowserRouter>
       <Nav />
       <Myroute />
     </BrowserRouter>
